@@ -4,6 +4,6 @@ LABEL version="0.1"
 LABEL description="Sample HelloWorld containerized Java application for Jenkins availability testing"
 
 WORKDIR /root
-COPY /var/lib/jenkins/workspace/helloworld/HelloWorld .
+COPY HelloWorld.java .
 RUN javac HelloWorld.java \
     java HelloWorld
