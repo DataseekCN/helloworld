@@ -5,6 +5,4 @@ LABEL description="Sample HelloWorld containerized Java application for Jenkins 
 
 WORKDIR /root
 COPY HelloWorld.java .
-RUN javac HelloWorld.java \
-    ls -a \
-    java HelloWorld
+RUN javac HelloWorld.java && java HelloWorld
