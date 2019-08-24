@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-LABEL maintainer="stan_gai@Hotmail.com"
+LABEL maintainer="user3301"
 LABEL version="0.1"
 LABEL description="Sample HelloWorld containerized Java application for Jenkins availability testing"
 
